@@ -5,8 +5,6 @@ import coin from '../../../assets/Images/coin.png'
 import certificate from '../../../assets/Images/cirtificate.png'
 const Statistics = () => {
     return (
-
-
         < div className="max-w-[1400px] mx-auto p-4" >
             <div>
                 <p className="block md:hidden text-3xl font-bold mb-10">Comprehensive Care  for Every Patient</p>
@@ -14,7 +12,7 @@ const Statistics = () => {
 
             <div className="">
 
-                <div className="flex flex-col md:flex-row gap-4">
+                <div className="flex flex-col md:flex-row justify-between gap-4">
 
                     <div className="md:w-20% flex flex-col gap-5 bg-white p-6 rounded-lg shadow-md ">
                         <div className="flex flex-col justify-center items-center">
