@@ -5,7 +5,7 @@ import logo from "../../assets/Images/logo light.png"
 
 const Footer = () => {
     return (
-        <div className="bg-[#020043] ">
+        <div className="bg-[#020043] p-8">
             <div className=" flex flex-col md:flex-row justify-between max-w-[1400px] mx-auto p-5 text-base-content ">
                 <div className="text-white flex flex-col">
                     {/* logo */}

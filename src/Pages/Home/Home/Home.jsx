@@ -5,6 +5,7 @@ import DiscountBanner from "../Discount-Banner/DiscountBanner";
 import Faq from "../Faqsection/Faq";
 import HelpSection from "../HelpSection/HelpSection";
 import Services from "../Services/Services";
+import Statistics from "../Stataics/Statics";
 import Testimonials from "../Testimonial/Testimonials";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <div>
             <Navbar></Navbar>
             <Banner></Banner>
+            <Statistics></Statistics>
             <HelpSection></HelpSection>
             <Services></Services>
             <Testimonials></Testimonials>
