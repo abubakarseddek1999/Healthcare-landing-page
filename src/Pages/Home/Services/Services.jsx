@@ -37,7 +37,7 @@ const info = [
 
 const Services = () => {
     return (
-        <div className="max-w-[1400px] mx-auto p-4 my-24 bg-[#FFFFF5] ">
+        <div className="max-w-[1400px] mx-auto p-4 mb-24 bg-[#FFFFF5] ">
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {info.map((service, index) => (

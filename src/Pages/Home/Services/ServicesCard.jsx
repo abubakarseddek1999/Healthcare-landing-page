@@ -6,23 +6,16 @@ const ServiceCard = ({ image, title, description, subDescription }) => {
     console.log(subDescription, title);
     return (
         <div className="relative group w-full  overflow-hidden rounded-lg shadow-lg">
-            {/* <div className='h-full w-full'>
-                <img
-                    src={image}
-                    alt={title}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-                
-            </div> */}
 
+            {/* service image */}
             <div className="relative  w-full  rounded-lg shadow-lg">
                 <img
                     src={image}
                     alt={title}
-                    className="w-full h-[350px] object-cover"
+                    className="w-full h-[400px] lg:h-[450px] object-cover"
                 />
 
-                <div className="absolute inset-0 m-5  top-32 bottom-2 md:right-24 lg:right-36 bg-[#020043] opacity-75 text-white rounded-2xl ">
+                <div className="absolute inset-0 m-5  top-32 md:top-40 lg:top-52 bottom-2 md:right-24 lg:right-36 bg-[#020043] opacity-75 text-white rounded-2xl ">
                     <div className='flex w-7/8 p-2 '>
                         <div>
                             <p className='text-md lg:text-xl font-bold mt-5 mb-5'>{title}</p>
@@ -35,6 +28,7 @@ const ServiceCard = ({ image, title, description, subDescription }) => {
                 </div>
             </div>
 
+            {/*show service details and appointment when hover image */}
             <div className="absolute inset-0 bg-[#FFFFF5] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between text-black text-start p-4">
                 <div>
                     <div className="p-1 mb-5 bg-[#FBFBFB] text-center border w-24 rounded-xl border-indigo-400">Service</div>
