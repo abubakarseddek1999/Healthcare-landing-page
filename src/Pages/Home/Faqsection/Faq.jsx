@@ -34,7 +34,7 @@ const Faq = () => {
 
     return (
         <div id="timeline" className="my-16 p-5 max-w-[1400px] mx-auto">
-            <div className="btn border w-24 rounded-xl border-indigo-400">FAQ</div>
+            <div className="p-1 text-center border w-24 rounded-xl border-indigo-400">FAQ</div>
             <p className='text-xl md:text-4xl font-bold mb-10'>Frequently Asked Questions</p>
 
             <div>
